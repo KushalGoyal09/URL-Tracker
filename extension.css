@@ -1,0 +1,65 @@
+body {
+    min-width: 450px;
+}
+
+input {
+    font-size: 1.3rem;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid #5f9341;
+    padding: 0.4rem;
+    width: 90%;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-size: 1.3rem;
+    margin: 1rem 0.5rem;
+    background: #5f9341;
+    color: white;
+    border: 2px solid #5f9341;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+#save-tab:hover {
+    color: #5f9341;
+    background-color: white;
+    border:2px solid #5f9341;
+}
+#delete {
+    color: #5f9341;
+    background-color: white;
+    border:2px solid #5f9341;
+}
+#delete:hover {
+    background: #5f9341;
+    color: white;
+    border: 2px solid #5f9341;
+}
+#show {
+    color: #5f9341;
+    background-color: white;
+    border:2px solid #5f9341;
+}
+#show:hover {
+    background: #5f9341;
+    color: white;
+    border: 2px solid #5f9341;
+}
+ul {
+    font-size: 1.3rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #5f9341;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
